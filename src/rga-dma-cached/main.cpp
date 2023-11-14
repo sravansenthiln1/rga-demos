@@ -95,7 +95,7 @@ int main(void) {
         dma_sync_device_to_cpu(src_dma_fd);
         dma_sync_device_to_cpu(dst_dma_fd);
 
-        //bmp_write(dst_buf, "./output.bmp", dst_width, dst_height);
+        bmp_write(dst_buf, "./output.bmp", dst_width, dst_height);
 
     // release memory objects
         release_buffer:
