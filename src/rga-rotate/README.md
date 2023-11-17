@@ -9,7 +9,7 @@ make
 
 ### Copy example image
 ```shell
-cp ../../samples/input.bmp .
+cp ../../samples/input_rgba.bmp .
 ```
 
 ### Run example

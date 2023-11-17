@@ -1,15 +1,15 @@
-SRC:=main.cpp
-OUT:=main
-
 CXXFLAGS+=-lrga
 
-INCLUDE_IM2D:=../../include/im2d/
-INCLUDE_RGA:=../../include/rga/
-INCLUDE_DMA:=../../include/dma/
-INCLUDE_BMP:=../../include/bmp/
+INCLUDE_IM2D:=../../libs/im2d/include/
+INCLUDE_RGA:=../../libs/rga/include/
+INCLUDE_DMA:=../../libs/dma/
+INCLUDE_BMP:=../../libs/bmp/
 
 SRC_DMA:=$(wildcard $(INCLUDE_DMA)*.cpp)
 SRC_BMP:=$(wildcard $(INCLUDE_BMP)*.cpp)
+
+SRC:=main.cpp
+OUT:=main
 
 OBJS:=$(SRC:.cpp=.o) $(SRC_BMP:.cpp=.o) $(SRC_DMA:.cpp=.o)
 

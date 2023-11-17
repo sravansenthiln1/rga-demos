@@ -7,11 +7,6 @@ Display diagnostic information regarding Rockchip-RGA api
 make
 ```
 
-### Copy example image
-```shell
-cp ../../samples/input.bmp .
-```
-
 ### Run example
 ```shell
 ./main
