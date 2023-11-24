@@ -1,4 +1,4 @@
-CXXFLAGS+=-lrga
+CXXFLAGS+=-l:librga.so.2
 
 INCLUDE_IM2D:=../../libs/im2d/include/
 INCLUDE_RGA:=../../libs/rga/include/
